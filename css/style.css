@@ -1,0 +1,83 @@
+/*The transition code in the body is new. Once it's implemented, moz/webkit/o lines won't be necessary and the transition line above them will run instead, though currently (appparently) it doesn't*/
+
+body {
+  background-color: white;
+  transition: background-color 2.2s;
+  -moz-transition: background-color 2.2s;
+  -webkit-transition: background-color 2.2s;
+  -o-transition: background-color 2.2s;
+  color: white; 
+  font-family: Oswald;
+}
+
+h1, h2 {
+  font-family: Rock Salt;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 5em;
+}
+
+.middle {
+  justify-content: center;
+  text-align: center;
+}
+
+#container1 {
+  min-height: 500px;
+}
+
+#borderDiv {
+  border-style: solid;
+  border-radius: 3%;
+  border-width: 6px;
+}
+
+#mainInfo {
+  padding: 5em 0 3em 0 ;
+}
+
+#iconArea {
+  padding: 0 0 4em 0;
+}
+
+#row1 {
+  min-height: 100px;
+  justify-content: center;
+  padding:;
+}
+
+#row2 {
+  justify-content: center;
+  color: white;
+  min-height: 300px;
+  padding: 4em 0 4em 0;
+  
+}
+
+#row3 {
+  margin:;
+}
+
+#sky {
+  margin-bottom: 20px;
+}
+
+#tempText {
+  opacity: 0;
+}
